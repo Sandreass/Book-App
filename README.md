@@ -2,17 +2,23 @@
 # 📚 Book-App
 Willkommen zur Book-App! Diese Anwendung bietet eine einfache Möglichkeit, Bücher zu durchsuchen, Details zu einzelnen Büchern anzuzeigen und sie zur Leseliste hinzuzufügen. Die Book-App ist mit modernen Web-Technologien entwickelt und bietet eine benutzerfreundliche Oberfläche für alle Bücherliebhaber.
 
-[Visit the Book-App](https://book-app-vert.vercel.app/)
+![App Screenshot](./screenshots/screenshot1.png)
 
+---
 ## Funktionen
 
 - **Bücher durchsuchen**: Durchsuchen Sie eine Vielzahl von Büchern nach Titel, Autor oder Genre..
 - **Leseliste**: Fügen Sie interessante Bücher Ihrer Leseliste hinzu und verwalten Sie sie.
 - **Responsive Design**: Optimiert für alle Geräte, damit Sie unterwegs problemlos Bücher finden können..
 - **Moderne Technologie**: Entwickelt mit React, Bootstrap und Vite für eine schnelle und effiziente Benutzererfahrung.
-  ## Installation
 
-1. Repository klonen:
+[Visit the Book-App](https://book-app-use-context.vercel.app/)
+
+---
+## Installation
+
+
+1. Repository clonen:
     ```sh
     git@github.com:Sandreass/Book-App.git
     ```
@@ -24,14 +30,15 @@ Willkommen zur Book-App! Diese Anwendung bietet eine einfache Möglichkeit, Büc
     ```sh
     npm install
     ```
-    4. .env Datei mit eigene KEY erstellen:
-   - VITE_API_KEY=your_omdb_api_key
-    
-4. Entwicklungsserver starten:
+4. .env Datei mit eigene KEY erstellen:
+   ```env
+    Füge deinen API-Schlüssel hinzu
+    ```
+5. Entwicklungsserver starten:
     ```sh
     npm run dev
     ```
-
+---
 ## Technologien
 
 - **React**: Eine JavaScript-Bibliothek zur Entwicklung von Benutzeroberflächen.
@@ -40,8 +47,8 @@ Willkommen zur Book-App! Diese Anwendung bietet eine einfache Möglichkeit, Büc
 - **Bootstrap**: Ein beliebtes CSS-Framework für das Design und Layout von Webseiten.
 - **OMDb API**: Eine API zum Abrufen von Bücher, die für die Suche nach Bücher verwendet wird.
 - **LocalStorage**: Zur Speicherung der Favoritenliste lokal im Browser.
-  
 
+---
 ## Projektstruktur
 
 ```plaintext
@@ -71,3 +78,8 @@ project-root/
 ├── package.json
 ├── vite.config.js
 └── README.md
+```
+---
+
+
+
